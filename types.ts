@@ -18,6 +18,7 @@ export interface IProject {
   image_path: string;
   deployed_url: string;
   github_url?: string;
+  key_techs?: string;
 }
 
 export type Category = "developing" | "volunteering" | "theatre";
